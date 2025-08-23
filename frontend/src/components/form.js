@@ -66,6 +66,9 @@ const MyForm = () => {
             <Button variant="primary" type="submit">
               Submit
             </Button>
+            <Button variant="primary" type="reset" className="ms-2" onClick={() => setFormData({ name: "", email: "", password: "" })}>
+              Reset
+            </Button>
           </Form>
         </Col>
       </Row>
