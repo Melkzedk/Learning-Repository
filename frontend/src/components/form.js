@@ -69,7 +69,7 @@ const MyForm = () => {
             <Button variant="primary" type="reset" className="ms-2" onClick={() => setFormData({ name: "", email: "", password: "" })}>
               Reset
             </Button>
-            <Button>
+            <Button variant="primary" type="button" className="ms-2" onClick={() => window.history.back()}>
               Back
             </Button>
           </Form>
