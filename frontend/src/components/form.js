@@ -72,6 +72,9 @@ const MyForm = () => {
             <Button variant="primary" type="button" className="ms-2" onClick={() => window.history.back()}>
               Back
             </Button>
+            <Button variant="primary" type="button" className="ms-2" onClick={() => window.location.href = '/'}>
+              Home  
+              
           </Form>
         </Col>
       </Row>
