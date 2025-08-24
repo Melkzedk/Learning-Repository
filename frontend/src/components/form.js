@@ -74,7 +74,7 @@ const MyForm = () => {
             </Button>
             <Button variant="primary" type="button" className="ms-2" onClick={() => window.location.href = '/'}>
               Home  
-              
+            </Button>
           </Form>
         </Col>
       </Row>
